@@ -1,0 +1,8 @@
+OUTPUT_DIR: "./resnet50pre_outdir"
+BACKBONE: "resnet50"
+BACKBONE_PRETRAINED: True
+INPUT:
+  EPOCH: 300
+  BATCH_SIZE_TRAIN: 300
+  DATA_ROOT: "/share/home/MZ2109122/publicData/train"
+  BATCH_SIZE_TEST: 300

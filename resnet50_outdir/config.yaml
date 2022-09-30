@@ -1,0 +1,8 @@
+BACKBONE: resnet50
+BACKBONE_PRETRAINED: true
+INPUT:
+  BATCH_SIZE_TEST: 300
+  BATCH_SIZE_TRAIN: 300
+  DATA_ROOT: /Volumes/T7/fineGainImages/train
+  EPOCH: 300
+OUTPUT_DIR: ./resnet50_outdir
